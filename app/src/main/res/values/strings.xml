@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Kings</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_play">Play</string>
+    <string name="Welcome">Welcome to Kings</string>
+    <string name="rules_bt">Rules</string>
+    <string name="custome_bt">Customize Rules</string>
+    <string name="play">Play Game</string>
+    <string name="description_view">Kings is a drinking game to help you and your friends make the best of your time together</string>
+    <string name="play_text">Cards Drawn</string>
+    <string name="play_line">___________________________________________</string>
+    <string name="deck">deck</string>
+    <string-array name="planets_array">
+        <item>A</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>J</item>
+        <item>Q</item>
+        <item>K</item>
+    </string-array>
+    <string name="title_activity_custom_rule">CustomRule</string>
+    <string name="rulechangetxt">Which rule would you like to change?</string>
+</resources>
