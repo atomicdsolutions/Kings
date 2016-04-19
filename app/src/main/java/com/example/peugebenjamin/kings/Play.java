@@ -21,15 +21,14 @@ public class Play extends AppCompatActivity {
         Button play = (Button) findViewById(R.id.btplay);
         played = (TextView) findViewById(R.id.played);
 
-        gamecards = new Deck();
+       // gamecards = new Deck();
 
     }
 
-    public void playGame(View v){
-        if (v.equals(played)) {
-            pulled = gamecards.drawCard();
-            Toast.makeText(getApplicationContext(), pulled.toString(), Toast.LENGTH_LONG).show();
+    public void playGame(){
+
+            //pulled = gamecards.drawCard();
+            Toast.makeText(getApplicationContext(), "Hello World", Toast.LENGTH_LONG).show();
             //played.setText(pulled.toString());
-        }
     }
 }
