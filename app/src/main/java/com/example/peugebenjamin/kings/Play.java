@@ -11,9 +11,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Play extends AppCompatActivity {
+<<<<<<< Updated upstream
     Deck gamecards;
     Cards pulled;
     TextView played;
+=======
+    TextView cardsplayed;
+    Button playbutton;
+    Deck gamecards;
+    Cards carddrawn;
+
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +31,16 @@ public class Play extends AppCompatActivity {
 
         gamecards = new Deck();
 
+        cardsplayed = (TextView) findViewById(R.id.tvcardsplayed);
+        playbutton = (Button) findViewById(R.id.btdraw);
+        gamecards = new Deck();
     }
+        public void Draw(){
+            carddrawn = gamecards.drawCard();
+            Toast callit = new Ta
+    }
+
+
 
     public void playGame(View v){
         if (v.equals(played)) {
