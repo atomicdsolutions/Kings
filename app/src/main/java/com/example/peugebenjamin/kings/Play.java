@@ -35,7 +35,7 @@ public class Play extends AppCompatActivity implements View.OnClickListener {
         if (pulled != null)
             msg = gamecards.drawCard().toString();
         else {
-            msg = "Not a Value ";
+            msg = "Not a  Value ";
         }
         Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
         playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
