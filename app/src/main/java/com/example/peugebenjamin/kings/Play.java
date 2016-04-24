@@ -37,7 +37,52 @@ public class Play extends AppCompatActivity implements View.OnClickListener {
         else {
             msg = "Not a  Value ";
         }
-        Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
-        playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+        switch (pulled.getValue()){
+            case 0:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 1:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 2:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 3:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 4:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 5:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 6:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 7:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 8:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 9:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 10:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 11:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 12:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+            case 13:
+                Toast.makeText(getApplicationContext(), msg , Toast.LENGTH_LONG).show();
+                playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+
+        }
+       // playedcards.setText(msg.toCharArray(),0,msg.toCharArray().length);
+
     }
 }
