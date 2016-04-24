@@ -16,6 +16,7 @@ public class Deck {
         for (int a=0; a<=3; a++){
             for(int b=0; b<=12; b++){
                 cards[x] = new Cards(a,b);
+                x++;
             }
         }
     }
